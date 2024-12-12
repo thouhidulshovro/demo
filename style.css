@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    padding-top: 60px; /* Added to prevent content from being hidden under the fixed header */
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays above other content */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.div1 h2 {
+    text-align: center;
+    color: #333;
+}
+
+.div1 img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.div1 p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.div1 ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #333;
+}
+
+.div1 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.div1 table td, .div1 table th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.div1 table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Div2 Styles */
+.div2 {
+    background-color: #e2e2e2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.div2 h5 {
+    font-size: 24px;
+    color: #333;
+}
+
+.div2 ul {
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+}
+
+.div2 ul li {
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+   
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
